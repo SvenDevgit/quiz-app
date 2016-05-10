@@ -13,13 +13,35 @@
     <h1 class="main-header">TENNIS QUIZ</h1>
   </header>
   <div class="main">
-
+    <form class="questions-form">
+      <fieldset>
+        <legend>Questions</legend> 
+        <p>What is the name of the current number one in the ATP ranking?</p>
+        <input type="radio" name="question" value="male"> Male<br>
+        <input type="radio" name="question" value="female"> Female<br>
+        <input type="radio" name="question" value="other"> Other<br>  
+        <input id="btn1" type="button" value="This is my answer"></input>
+        <p>Some background info concerning the given answer</p>
+      </fieldset>  
+    </form>
+    <div class="scoreboard">
+      <h1>Scoreboard</h1>
+      <span>15</span><span>30</span>
+      <div class="correct">
+      </div>
+      <div class="wrong">
+      </div>
+    </div>
+    <div class ="game-rules">
+    <h2>Point</h2>
+    <p>Point - Smallest unit of scoring. Starting at love (0 points), points increment from 15-30-40-game</p>
+    <h2>Game</h2>
+    <p>Game - A game consists of 4 points, just as long as the leading player has at least a 2-point advantage</p>
+    <p>ps: in this quiz the advantage only has to be 1 point...</p>
+    </div>
   </div>
-
-
   <footer>
     <div class="footer-image">
-
     </div>
   </footer>	
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
