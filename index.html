@@ -14,22 +14,32 @@
   </header>
   <div class="main">
     <form class="questions-form">
-      <fieldset>
-        <legend>Questions</legend> 
+       <div class="question">
+        <h3>Question</h3>
         <p>What is the name of the current number one in the ATP ranking?</p>
-        <input type="radio" name="question" value="male"> Male<br>
-        <input type="radio" name="question" value="female"> Female<br>
-        <input type="radio" name="question" value="other"> Other<br>  
-        <input id="btn1" type="button" value="This is my answer"></input>
-        <p>Some background info concerning the given answer</p>
-      </fieldset>  
+      </div>
+      <div class="answer">
+        <h3>Choose one of the three options</h3>
+        <input type="radio" name="question" value="Andy Murray">Andy Murray<br>
+        <input type="radio" name="question" value="Novak Djokovic">Novak Djokovic <br>
+        <input type="radio" name="question" value="Roger Federer">Roger Federer<br>  
+        <input id="btn1" type="button" value="Check my answer"></input>
+      </div>  
+        <div class="background-info">  
+        <p>Some background info concerning the given answer, is shown after the player has chosen his/her option</p>  
+        </div>    
     </form>
     <div class="scoreboard">
       <h1>Scoreboard</h1>
-      <span>15</span><span>30</span>
-      <div class="correct">
+      <div class="player">
+        <p>Correct</p>
+        <p>Wrong</p>
       </div>
-      <div class="wrong">
+      <div class="score">
+        <p>0</p>
+        <p>0</p>
+      </div>  
+      <div class="win-message">
       </div>
     </div>
     <div class ="game-rules">
