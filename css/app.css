@@ -1,10 +1,12 @@
 body {
 	background-color: #228B22;
+	/*background-repeat: no-repeat;*/
+	background-image: url('../images/header-grass.jpg');
 }
 
 .main-header {
 	text-align: center;
-	color: #00008B;
+	color: #228B22;
 }
 
 .main {
