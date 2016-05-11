@@ -1,16 +1,16 @@
 body {
-	background-color: #228B22;
-	/*background-repeat: no-repeat;*/
-	background-image: url('../images/header-grass.jpg');
+  background-color: #228B22;
+  /*background-repeat: no-repeat;*/
+  background-image: url('../images/header-grass.jpg');
 }
 
 .main-header {
-	text-align: center;
-	color: #228B22;
+  text-align: center;
+  color: #228B22;
 }
 
 .question h3, .answer h3{
-	text-align: center;
+  text-align: center;
 }
 
 .main {
@@ -24,10 +24,10 @@ body {
 }
 
 .questions-form {
-  background-color: #BDB76B;
+  background-color: white; /*#BDB76B;*/
   position: absolute;
   float: left;
-  top: 1rem;	
+  top: 1rem;  
   height: 25rem;
   width: 25rem;
   left:1rem;
@@ -37,36 +37,36 @@ body {
   background-color: white;
   position: absolute;
   float: left;
-  /*top: 1rem;*/	
+  /*top: 1rem;*/  
   height: 9rem;
   width: 25rem;
-  /*left:1rem;	*/
+  /*left:1rem;  */
 }
 
 .answer{
   background-color: #FFA500;
   position: absolute;
   float: left;
-  top: 9rem;	
+  top: 9rem;  
   height: 9rem;
-  width: 25rem;
-  /*left:1rem;	*/
+  width: 23rem;
+  left:1rem;
 }
 
 .background-info{
   background-color: white;
   position: absolute;
   float: left;
-  top: 18rem;	
+  top: 18rem; 
   height: 7rem;
-  width: 25rem;	
+  width: 25rem; 
 }
 
 .scoreboard {
   background-color: #008000;
   position: absolute;
   float: left;
-  top: 1rem;	
+  top: 1rem;  
   height: 17rem;
   width: 24rem;
   left:28rem;
@@ -75,7 +75,7 @@ body {
 .scoreboard h1,
 .player,
 .score {
-  text-align: center;	
+  text-align: center; 
 }
 
 .player, .score {
@@ -86,21 +86,27 @@ body {
 
 div h3{
   margin-top: 1px;
-  margin-bottom: 3px;	
+  margin-bottom: 3px; 
 }
 
 input{
-	margin-top: 5px;
+  margin-top: 5px;
 }
 
 .player p, .score p {
   margin: 4px 0px 1px 0px;
 }
 
+.game-rules, 
+.scoreboard,
+.answer {
+ border-radius: 5px;
+}
+
 .player {
   position: absolute;
   float: left;
-  top: 5rem;	
+  top: 5rem;  
   height: 6rem;
   width: 7rem;
   left:4rem;
@@ -109,7 +115,7 @@ input{
 .score {
   position: absolute;
   float: left;
-  top: 5rem;	
+  top: 5rem;  
   height: 6rem;
   width: 7rem;
   left:13rem;
@@ -119,7 +125,7 @@ input{
   background-color: white;
   position: absolute;
   float: left;
-  top: 12rem;	
+  top: 12rem; 
   height: 3rem;
   width: 16rem;
   left:4rem;
@@ -129,7 +135,7 @@ input{
   background-color: #FFA500;
   position: absolute;
   float: left;
-  top: 1rem;	
+  top: 1rem;  
   height: 25rem;
   width: 24rem;
   left:54rem;
@@ -137,7 +143,7 @@ input{
 
 .footer-image {
   background-image: url('../images/tennisball-footer.jpg');
-  background-color: #228B22;	
+  background-color: #228B22;  
   width: 100%;
   height: 200px;
   position: absolute;
