@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/app.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='//fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron:500|Ubuntu+Condensed|Bree+Serif' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <header>
@@ -15,42 +16,49 @@
   <div class="main">
     <form class="questions-form">
        <div class="question">
-        <h3>Question</h3>
-        <p>What is the name of the current number one in the ATP ranking?</p>
+        <p class="h3">Question</p>
+        <p class="cnt">What is the name of the current number one in the ATP ranking?</p>
       </div>
       <div class="answer">
-        <h3>Choose one of the three options</h3>
+        <p class="h3">Choose one of the three options</p>
+        <div class="radio-div">
         <input type="radio" name="question" value="0" id="0">
         <label id="0">Andy Murray</label><br>
         <input type="radio" name="question" value="1" id="1">
         <label id="1">Novak Djokovic</label><br>
         <input type="radio" name="question" value="2" id="2">
-        <label id="2">Roger Federer</label><br> 
-        <input id="btn1" type="button" value="Check my answer"></input>
+        <label id="2">Roger Federer</label><br>  
+        </div>
+        <div class=button-div>
+          <input id="btn1" type="button" value="Check my answer"></input>
+        </div>  
       </div>  
         <div class="background-info">  
-        <p>to see</p>  
+        <p></p>  
         </div>    
     </form>
     <div class="scoreboard">
       <h1>Scoreboard</h1>
       <div class="player">
-        <p>Correct</p>
+        <p id="pcorrect">Correct</p>
         <p>Wrong</p>
       </div>
       <div class="score">
-        <p>0</p>
-        <p>0</p>
+        <p id="correct">0</p>
+        <p id="wrong">0</p>
       </div>  
-      <div class="win-message">
+      <div class="game-message">
       </div>
     </div>
     <div class ="game-rules">
-    <h2>Point</h2>
-    <p>Point - Smallest unit of scoring. Starting at love (0 points), points increment from 15-30-40-game</p>
-    <h2>Game</h2>
-    <p>Game - A game consists of 4 points, just as long as the leading player has at least a 2-point advantage</p>
-    <p>ps: in this quiz the advantage only has to be 1 point...</p>
+    <p class="h3">Point</p>
+    <p>Smallest unit of scoring. Starting at love (0 points), points increment from 15-30-40-game</p>
+    <p class="h3">Game</p>
+    <p>A game consists of 4 points, just as long as the leading player has at least a 2-point advantage<br>ps: in this quiz the advantage only has to be 1 point...</p>
+    <p class="h3">Set</p>
+    <p>A set is won when a player wins 6 games with a lead of at least 2 games</p>
+    <p class="h3">Match</p>
+    <p>Whichever player/team wins the majority of sets wins the match. A typical match is always an odd number, often either 3 or 5 sets</p>
     </div>
   </div>
   <footer>

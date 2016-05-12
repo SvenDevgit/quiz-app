@@ -1,16 +1,28 @@
 body {
   background-color: #228B22;
-  /*background-repeat: no-repeat;*/
   background-image: url('../images/header-grass.jpg');
 }
 
 .main-header {
   text-align: center;
   color: #228B22;
+  font-family: 'Bree Serif', serif;
 }
 
-.question h3, .answer h3{
+p {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  padding-left:0.5rem;
+}
+
+.h3{
   text-align: center;
+  font-size: 1.5rem;
+}
+
+#correct,
+#pcorrect{
+  padding-top: 0.8rem;
 }
 
 .main {
@@ -23,8 +35,16 @@ body {
   z-index: 1;
 }
 
+.game-message,
+.game-rules,
 .questions-form {
-  background-color: white; /*#BDB76B;*/
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 1.2rem;
+  color: #00008B;
+}
+
+.questions-form {
+  background-color: white;
   position: absolute;
   float: left;
   top: 1rem;  
@@ -37,23 +57,21 @@ body {
   background-color: white;
   position: absolute;
   float: left;
-  /*top: 1rem;*/  
-  height: 9rem;
+  height: 7rem;
   width: 25rem;
-  /*left:1rem;  */
 }
 
 .answer{
   background-color: #FFA500;
   position: absolute;
   float: left;
-  top: 9rem;  
-  height: 12rem;
+  top: 8rem;  
+  height: 14rem;
   width: 23rem;
   left:1rem;
 }
 
-.background-info{
+/*.background-info{
   background-color: white;
   position: absolute;
   float: left;
@@ -61,6 +79,7 @@ body {
   height: 4rem;
   width: 25rem; 
 }
+*/
 
 .scoreboard {
   background-color: #008000;
@@ -82,6 +101,7 @@ body {
   color: yellow;
   background-color: #006400;
   font-size: 2rem;
+  font-family: 'Orbitron', sans-serif;
 }
 
 div h3{
@@ -90,16 +110,41 @@ div h3{
 }
 
 input{
-  margin-top: 5px;
+  margin-top: 10px;
+}
+
+label{
+  margin-left: 0.5rem;
+}
+
+.radio-div{
+  position:absolute;
+  left: 1rem;
+}
+
+
+#btn1{
+  text-align: center;
+  padding: 15px 32px;
+  border: none;
+  color: white;
+}
+
+.button-div{
+  position : absolute;
+  top: 8.5rem;
+  left: 5rem;
 }
 
 .player p, .score p {
   margin: 4px 0px 1px 0px;
 }
 
-.game-rules, 
+.game-rules,
 .scoreboard,
-.answer {
+.answer,
+.player,
+.score {
  border-radius: 5px;
 }
 
@@ -108,8 +153,8 @@ input{
   float: left;
   top: 5rem;  
   height: 6rem;
-  width: 7rem;
-  left:4rem;
+  width: 10rem;
+  left:3rem;
 }
 
 .score {
@@ -118,17 +163,17 @@ input{
   top: 5rem;  
   height: 6rem;
   width: 7rem;
-  left:13rem;
+  left:15rem;
 }
 
-.win-message {
-  background-color: white;
+.game-message {
+  background-color: #008000;
   position: absolute;
   float: left;
   top: 12rem; 
-  height: 3rem;
-  width: 16rem;
-  left:4rem;
+  height: 4rem;
+  width: 20rem;
+  left:2rem;
 }
 
 .game-rules {
@@ -139,6 +184,7 @@ input{
   height: 25rem;
   width: 24rem;
   left:54rem;
+  color: #00008B;
 }
 
 .footer-image {
