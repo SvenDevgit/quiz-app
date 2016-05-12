@@ -48,7 +48,7 @@ body {
   position: absolute;
   float: left;
   top: 9rem;  
-  height: 9rem;
+  height: 12rem;
   width: 23rem;
   left:1rem;
 }
@@ -57,8 +57,8 @@ body {
   background-color: white;
   position: absolute;
   float: left;
-  top: 18rem; 
-  height: 7rem;
+  top: 21rem; 
+  height: 4rem;
   width: 25rem; 
 }
 
